@@ -1,0 +1,23 @@
+{
+  "name": "pizza-api",
+  "version": "1.0.0",
+  "description": "api pour permettre au restaurant de gerer des commnandes . utilisation de nodejs + aws , travail sur architecture",
+  "main": "api.js",
+  "scripts": {
+    "create": "claudia create --profile claudia --api-module api --region eu-west-2",
+    "update": "claudia update",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "godwin k",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.841.0",
+    "claudia-api-builder": "^4.1.2"
+  },
+  "devDependencies": {
+    "claudia": "^5.12.0"
+  }
+}
